@@ -1,15 +1,36 @@
 .container {
     max-width: 1200px;
     justify-content: center;
+    margin: 0 auto;
 
 }
 
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
 
+.nav-list__link {
+    text-decoration: none;
+}
 
+.nav-list__item {
+    display: block;
+    
+
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+.nav-list__item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .variable-width>div {
-    width: 200px;
-    height: 150px;
+    width: 1200px;
     background-color: #ccc;
     border: 2px solid white;
 }
